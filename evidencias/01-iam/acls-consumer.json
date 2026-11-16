@@ -1,0 +1,50 @@
+[
+  {
+    "principal": "User:sa-r2g5211",
+    "permission": "ALLOW",
+    "operation": "CREATE",
+    "resource_type": "TOPIC",
+    "resource_name": "__debezium-heartbeat",
+    "pattern_type": "PREFIXED"
+  },
+  {
+    "principal": "User:sa-r2g5211",
+    "permission": "ALLOW",
+    "operation": "CREATE",
+    "resource_type": "TOPIC",
+    "resource_name": "desafio",
+    "pattern_type": "PREFIXED"
+  },
+  {
+    "principal": "User:sa-r2g5211",
+    "permission": "ALLOW",
+    "operation": "DESCRIBE",
+    "resource_type": "TOPIC",
+    "resource_name": "__debezium-heartbeat",
+    "pattern_type": "PREFIXED"
+  },
+  {
+    "principal": "User:sa-r2g5211",
+    "permission": "ALLOW",
+    "operation": "DESCRIBE",
+    "resource_type": "TOPIC",
+    "resource_name": "desafio",
+    "pattern_type": "PREFIXED"
+  },
+  {
+    "principal": "User:sa-r2g5211",
+    "permission": "ALLOW",
+    "operation": "WRITE",
+    "resource_type": "TOPIC",
+    "resource_name": "__debezium-heartbeat",
+    "pattern_type": "PREFIXED"
+  },
+  {
+    "principal": "User:sa-r2g5211",
+    "permission": "ALLOW",
+    "operation": "WRITE",
+    "resource_type": "TOPIC",
+    "resource_name": "desafio",
+    "pattern_type": "PREFIXED"
+  }
+]

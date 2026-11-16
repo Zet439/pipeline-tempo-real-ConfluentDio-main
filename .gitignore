@@ -1,0 +1,30 @@
+# Segredos: nunca versionar
+.env
+*.pem
+*.key
+*.secret
+api-keys*.txt
+*.rendered.json
+__pycache__/
+
+# Config do conector com valores reais (gerada em runtime)
+cdc-debezium/*.rendered.json
+
+# Ambientes virtuais Python (não versionar: pesado e específico da máquina)
+.venv/
+venv/
+env/
+*.pyc
+
+# Sistema / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Binários locais (ex.: Confluent CLI instalada aqui por engano)
+bin/
+
+# Variações do .env (backups do editor) nunca vão para o git; o exemplo continua versionado
+.env.*
+!.env.example
+*.save
